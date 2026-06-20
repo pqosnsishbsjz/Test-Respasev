@@ -1,0 +1,46 @@
+:root {
+    --bg-color: radial-gradient(circle at 10% 20%, rgba(45,45,55,0.4) 0%, rgba(25,25,30,0.8) 90%),
+        linear-gradient(112deg, #141416 0%, #1c1c20 40%, #121215 100%);
+    --text-color: #FFFFFF;
+    --Button-color: #0071E7;
+    --border-color: #c2c2c2;
+    --Glass-hover:  rgba(194, 194, 194, 0.165);
+    --Glass-hover-2:  rgba(255, 255, 255, 0.165);
+    --button: #3eebbe;
+    --cover-bg: #2d2f45;
+    --Return-or-Exit: oklch(0.62 0.21 25.04);
+    --box-shadow: rgba(0, 0, 0, 0.2);
+    --Shadowed-button: rgba(0, 113, 231, 0.25);
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    width: 100%;
+    height: 90px;
+    /* background-color: white; */
+}
+
+.lest-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--Glass-hover);
+    padding: 15px 30px;
+    border-radius: 999px;
+    color: var(--text-color);
+    width: 50%;
+    height: 45px;
+}
+
+.icon-lest-header:hover {
+    color: var(--border-color);
+}
+
+.icon-color {
+    color: var(--text-color);
+}
